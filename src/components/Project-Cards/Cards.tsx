@@ -1,11 +1,12 @@
-import { Project } from "../data/Projects";
+import { Project } from "../../data/projects";
+import "./Cards.css";
 
 const  Cards = (props: Project) => {
     return (
-        <div className="navbar">
-            <h2 className="proyecto">{props.nombre}</h2>
-            <img src="" alt="" />
-            <p>{props.descripcion}</p>
+        <div className="card">
+            <h2 className="card-title">{props.nombre}</h2>
+            <img className="card-image" src="" alt="" />
+            <p className="card-description">{props.descripcion}</p>
         </div>
         );
 }

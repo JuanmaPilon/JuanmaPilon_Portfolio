@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.contact { 
+    @apply bg-gray-100 p-8 rounded-lg shadow-md;
+    @apply flex flex-col items-center;
+}
