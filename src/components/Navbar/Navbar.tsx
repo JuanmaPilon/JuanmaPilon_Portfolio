@@ -1,9 +1,11 @@
+import './Navbar.css';
+
 const NavBar = () => {
     return (
-    <nav>
-        <div>
-            <h2>About me</h2>
-            <h2>Projects</h2>
+    <nav className="navbar">
+        <div className='navbar-container'>
+            <h2 className='navbar-about'>About me</h2>
+            <h2 className='navbar-projects'>Projects</h2>
             <h2 className="logo">Logo</h2>
         </div>
     </nav>
