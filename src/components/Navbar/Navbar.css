@@ -8,14 +8,14 @@
   @apply flex items-center justify-between w-full max-w-7xl mx-auto;
 }
 
-.navbar-menu {
-  @apply flex space-x-4;
-}
-
 .navbar-projects {
   @apply text-gray-300 hover:text-white;
 }
 
 .navbar-about {
+    @apply text-gray-300 hover:text-white;
+}
+
+.navbar-contact {
     @apply text-gray-300 hover:text-white;
 }

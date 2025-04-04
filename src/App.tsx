@@ -12,6 +12,7 @@ function App() {
     <NavBar/>
      <Header/>
      <About/>
+     <section id="projects" className="section-projects">
      <div className="cards-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
      {projectInfo.map((proyecto, index) => (
     <Cards
@@ -22,6 +23,7 @@ function App() {
     />
      ))}
      </div>
+     </section>
       <Contact/>
       <Footer/>
     </>

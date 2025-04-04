@@ -6,9 +6,9 @@ export type Project = {
 
 export const projectInfo: Project[] = [
     {
-        "nombre": "Proyecto 1",
-        "imagen": "https://via.placeholder.com/150",
-        "descripcion": "Descripcion del proyecto 1"
+        "nombre": "Chatbot IA para la atención al cliente",
+        "imagen": "/projects/Chatbot.png",
+        "descripcion": "Un Chatbot creado con IA para la empresa WIS"
     },
     {
         "nombre": "Proyecto 2",
