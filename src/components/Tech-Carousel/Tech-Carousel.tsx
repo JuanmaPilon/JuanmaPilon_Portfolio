@@ -1,10 +1,13 @@
 import './Tech-Carousel.css';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 const techs = [
     {name: "HTML", icon: "html5"},
     {name: "CSS", icon: "css3"},
     {name: "JavaScript", icon: "javascript"},
     {name: "React", icon: "react"},
+    {name: "Redux", icon: "redux"},
     {name: "Node.js", icon: "nodejs"},
     {name: "Express", icon: "express"},
     {name: "MongoDB", icon: "mongodb"},
@@ -27,19 +30,26 @@ const techs = [
 ]
 
 const Carousel = () => {
+    const [emblaRef] = useEmblaCarousel({ loop: true, dragFree: true, align: 'start', skipSnaps: false, }, [Autoplay({ delay: 1500, stopOnInteraction: false })]);
+
+
     return (
     <div>
         <section className="section-tech-carousel" id="tech-carousel">
             <h2>Techs that I have used:</h2>
-            <div>
+
+            <div className='overflow-hidden' ref={emblaRef}>
+
+            <div className='flex'>
                 {techs.map((techs, index) => (
-                    <div className="tech-card" key={index}>
-                        <i className={`devicon-${techs.icon}-plain colored`}></i>
-                        <h3>{techs.name}</h3>
+                    <div className="tech-card flex flex-col items-center justify-center min-w-[100px] mx-4" key={index}>
+                        <i className={`devicon-${techs.icon}-plain colored text-6xl`}></i>
+                        <h3 className='text-md mt-2'>{techs.name}</h3>
                     </div>
                 ))}
             </div>
-            
+
+            </div>
             </section>
 
     </div>
