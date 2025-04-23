@@ -9,7 +9,7 @@ const techs = [
     {name: "React", icon: "react"},
     {name: "Redux", icon: "redux"},
     {name: "Node.js", icon: "nodejs"},
-    {name: "Express", icon: "express"},
+    {name: "Express", icon: "express-original colored"},
     {name: "MongoDB", icon: "mongodb"},
     {name: "Python", icon: "python"},
     {name: "C#", icon: "csharp"},
@@ -25,6 +25,8 @@ const techs = [
     {name: "Bootstrap", icon: "bootstrap"},
     {name: "Sass", icon: "sass"},
     {name: "TypeScript", icon: "typescript"},
+    {name: "NPM", icon: "npm-original-wordmark colored"},
+    {name: "Deno", icon: "denojs"},
 
 
 ]
