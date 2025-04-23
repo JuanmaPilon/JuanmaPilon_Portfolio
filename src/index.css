@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-gradient-to-br from-blue-800 to-red-950
+}
