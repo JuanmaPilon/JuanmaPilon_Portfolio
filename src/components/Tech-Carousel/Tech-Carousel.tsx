@@ -17,7 +17,7 @@ const techs = [
     {name: "PHP", icon: "php"},
     {name: "Laravel", icon: "laravel"},
     {name: "Vue.js", icon: "vuejs"},
-    {name: "Angular", icon: "angular"},
+    {name: "Angular", icon: "angularjs"},
     {name: "MySQL", icon: "mysql"},
     {name: "PostgreSQL", icon: "postgresql"},
     {name: "SQLite", icon: "sqlite"},
@@ -27,8 +27,9 @@ const techs = [
     {name: "TypeScript", icon: "typescript"},
     {name: "NPM", icon: "npm-original-wordmark colored"},
     {name: "Deno", icon: "denojs"},
+    {name: "Dynatrace", icon: "dynatrace"},
 
-
+    
 ]
 
 const Carousel = () => {
@@ -46,7 +47,7 @@ const Carousel = () => {
                 {techs.map((techs, index) => (
                     <div className="tech-card flex flex-col items-center justify-center min-w-[100px] mx-4" key={index}>
                         <i className={`devicon-${techs.icon}-plain colored text-6xl`}></i>
-                        <h3 className='text-md mt-2'>{techs.name}</h3>
+                        <h3 className='text-md mt-2 text-white font-semibold'>{techs.name}</h3>
                     </div>
                 ))}
             </div>

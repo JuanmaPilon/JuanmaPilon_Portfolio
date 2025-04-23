@@ -14,9 +14,9 @@ const NavBar = () => {
     return (
     <nav className="navbar">
         <div className='navbar-container'>
-            <button className='navbar-about' onClick={() => handleScrollToSection("about")}>About me</button>
-            <button className='navbar-projects' onClick={() => handleScrollToSection("projects")}>Projects</button>
-            <button className="navbar-contact" onClick={() => handleScrollToSection("contacts")}>Contact</button>
+            <button className='navbar-about font-semibold' onClick={() => handleScrollToSection("about")}>About me</button>
+            <button className='navbar-projects font-semibold' onClick={() => handleScrollToSection("projects")}>Projects</button>
+            <button className="navbar-contact font-semibold" onClick={() => handleScrollToSection("contacts")}>Contact</button>
         </div>
     </nav>
     );
