@@ -38,8 +38,9 @@ const Carousel = () => {
 
     return (
     <div>
-        <section className="section-tech-carousel" id="tech-carousel">
-            <h2>Techs that I have used:</h2>
+        <section className="section-tech-carousel bg-black/30 backdrop:blur-sm py-16 px-6 text-white" id="tech-carousel">
+        <div className="tech-carousel-container w-full mx-auto text-center">
+            <h2 className='text-3xl font-bold mb-8'>Techs that I have used:</h2>
 
             <div className='overflow-hidden' ref={emblaRef}>
 
@@ -52,6 +53,7 @@ const Carousel = () => {
                 ))}
             </div>
 
+            </div>
             </div>
             </section>
 

@@ -11,7 +11,7 @@ const Header = () => {
           initial={{ opacity: 0, y: -200 }}
           animate={{ opacity: 1, y: -50 }}
           transition={{ duration: 1.2 }}
-          className="header-title text-4xl md:text-5xl font-bold mb-4"
+          className="header-title text-5xl md:text-5xl font-bold mb-4"
         >
           Hello, my name is Juan Martin Pilon
         </motion.h1>
