@@ -6,8 +6,10 @@ import {
     SiMongodb, SiPython, SiPhp, SiLaravel, 
     SiVuedotjs, SiAngular, SiMysql, SiPostgresql, SiSqlite, 
     SiTailwindcss, SiBootstrap, SiSass, SiTypescript, SiNpm, 
-    SiDeno, SiDynatrace 
+    SiDeno, SiDynatrace, SiGit, SiGithub, SiDocker,
+    SiSharp, SiCplusplus, SiC
   } from "react-icons/si";
+import { FaJava } from 'react-icons/fa6';
 
   const techs = [
     { name: "HTML", icon: SiHtml5, color: "text-orange-500" },
@@ -32,6 +34,13 @@ import {
     { name: "NPM", icon: SiNpm, color: "text-red-500" },
     { name: "Deno", icon: SiDeno, color: "text-gray-400" },
     { name: "Dynatrace", icon: SiDynatrace, color: "text-green-400" },
+    { name: "Git", icon: SiGit, color: "text-orange-500" },
+    { name: "GitHub", icon: SiGithub, color: "text-gray-400" },
+    { name: "Docker", icon: SiDocker, color: "text-blue-400" },
+    { name: "C#", icon: SiSharp, color: "text-blue-500" },
+    { name: "Java", icon: FaJava, color: "text-red-500" },
+    { name: "C++", icon: SiCplusplus, color: "text-blue-500" },
+    { name: "C", icon: SiC, color: "text-blue-500" },
   ];
 
 const Carousel = () => {
