@@ -1,5 +1,7 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
 
 body {
-    @apply bg-gradient-to-br from-blue-900 to-red-950
+    @apply bg-gradient-to-br from-red-500 to-gray-800 dark:bg-gradient-to-br dark:from-blue-900 dark:to-red-950;
 }
