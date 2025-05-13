@@ -11,7 +11,7 @@ const  Cards = (props: Project) => {
     }
 return (
   <div
-    className={`card cursor-pointer bg-gradient-to-br from-red-900 to-blue-900 rounded-xl shadow-md p-8 flex flex-col items-center text-center hover:scale-105 hover:shadow-lg transition-transform duration-300 ease-in-out border-black/60 border-2 ${
+    className={`card cursor-pointer bg-gradient-to-br from-red-400 to-blue-600  dark:from-red-900 dark:to-blue-900 rounded-xl shadow-md p-8 flex flex-col items-center text-center hover:scale-105 hover:shadow-lg transition-transform duration-300 ease-in-out border-black/60 border-2 ${
       isExpanded ? "scale-105" : ""
     }`}
     onClick={handleClick}
@@ -22,7 +22,7 @@ return (
       src={props.imagen}
       alt={props.nombre}
     />
-    <p className="text-white text-sm">{props.descripcion}</p>
+    <p className="text-white text-sm">{props.shortDescription}</p>
 
     {isExpanded && (
       <div className="mt-4 text-white text-sm space-y-2">

@@ -9,11 +9,19 @@ export type Project = {
 
 export const projectInfo: Project[] = [
     {
-        "nombre": "Chatbot IA para la atención al cliente",
+        "nombre": "AI-Powered Assistant for WIS (Warehouse Information System)",
         "imagen": "/projects/Chatbot.png",
-        "shortDescription": "Un Chatbot creado con IA para la empresa WIS",
-        "descripcion": "Un Chatbot creado con IA para la empresa WIS",
-        "link": ""
+        "shortDescription": "Final project developed for my degree in Information Technology at UTEC. The objective was to design and implement an intelligent assistant capable of answering questions related to the internal operations and documentation of a Warehouse Information System (WIS).",
+        "descripcion": `This assistant is built using Retrieval-Augmented Generation (RAG) techniques, which combine traditional information retrieval with generative AI to provide accurate, context-aware responses. The system integrates:
+
+Vector-based document retrieval: Relevant warehouse-related documents are indexed into a vector database, allowing the assistant to fetch context dynamically.
+
+Language Model integration: A local LLM running in LM Studio is queried using retrieved content, enabling answers grounded in the company’s documentation.
+
+Custom fine-tuning and prompt engineering to guide the assistant’s behavior and improve relevance of answers.
+
+The project is implemented in Python using Jupyter Notebook, and serves as a strong demonstration of practical AI application in logistics and enterprise resource planning (ERP) environments.`,
+        "link": "https://github.com/JuanmaPilon/UTEC_PROYECTO_ProFinal"
     },
     {
         "nombre": "Final lab of the JakartaEE workshop",
