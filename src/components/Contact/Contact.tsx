@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="contact max-w-2xl w-full text-center">
             <h1 className="contact-title text-4xl font-bold mb-6">Contact Me!</h1>
             <a href="mailto:juanmartin.pilon@gmail.com"
-            className='inline-flex items-center gap-2 text-red-400 hover:text-red-600 font-semibold py-2 px-3 transition mx-0.5'>
+            className='inline-flex items-center gap-2 text-red-700 hover:text-red-600 font-semibold py-2 px-3 transition mx-0.5 dark:text-red-400'>
                 <SiGmail className='text-2xl' />
             </a>
             <a 

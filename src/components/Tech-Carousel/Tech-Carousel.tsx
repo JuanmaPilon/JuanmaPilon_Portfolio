@@ -51,7 +51,7 @@ const Carousel = () => {
     <div>
         <section className="section-tech-carousel bg-black/40 backdrop:blur-sm py-16 px-6 text-white" id="tech-carousel">
         <div className="tech-carousel-container w-full mx-auto text-center">
-            <h2 className='text-3xl font-bold mb-8'>Techs that I have used:</h2>
+            <h2 className='text-3xl font-bold mb-8 font-[source_code_pro]'>Techs that I have used:</h2>
 
             <div className='overflow-hidden' ref={emblaRef}>
 
@@ -59,7 +59,7 @@ const Carousel = () => {
                 {techs.map((techs, index) => (
                     <div className="tech-card flex flex-col items-center justify-center min-w-[100px] mx-4" key={index}>
                         <techs.icon className={`text-5xl ${techs.color}`} />
-                        <h3 className='text-md mt-2 text-white font-semibold'>{techs.name}</h3>
+                        <h3 className='text-md mt-2 text-white font-semibold font-sans'>{techs.name}</h3>
                     </div>
                 ))}
             </div>

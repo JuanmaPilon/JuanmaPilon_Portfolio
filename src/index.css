@@ -1,7 +1,12 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+@import "@fontsource/share-tech";
+@import "@fontsource/rubik";
+@import "@fontsource/cascadia-mono";
+@import "@fontsource/cascadia-code";
+@import "@fontsource/source-code-pro";
 
 
 body {
-    @apply bg-gradient-to-br from-red-500 to-gray-800 dark:bg-gradient-to-br dark:from-blue-900 dark:to-red-950;
+    @apply bg-gradient-to-br from-blue-400 to-red-600 dark:bg-gradient-to-br dark:from-blue-900 dark:to-red-950;
 }
