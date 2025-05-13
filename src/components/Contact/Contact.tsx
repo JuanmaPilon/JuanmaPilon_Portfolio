@@ -5,7 +5,7 @@ const Contact = () => {
     return  (
         <section id="contacts" className="section-contact px-4 py-20 text-white flex flex-col items-center justify-center">
         <div className="contact max-w-2xl w-full text-center">
-            <h1 className="contact-title text-4xl font-bold mb-6">Contact Me!</h1>
+            <h1 className="contact-title text-4xl font-bold mb-6 font-[source_code_pro]">Contact Me!</h1>
             <a href="mailto:juanmartin.pilon@gmail.com"
             className='inline-flex items-center gap-2 text-red-700 hover:text-red-600 font-semibold py-2 px-3 transition mx-0.5 dark:text-red-400'>
                 <SiGmail className='text-2xl' />
@@ -21,7 +21,7 @@ const Contact = () => {
             >
                 <SiGithub className='text-2xl' />
             </a>
-            <p className='contact-subtitle text-lg text-gray-300 mt-6'>If you have any questions, feel free to reach out!</p>
+            <p className='contact-subtitle text-lg text-gray-300 mt-6 font-[source_code_pro]'>If you have any questions, feel free to reach out!</p>
         </div>
         </section>
     );

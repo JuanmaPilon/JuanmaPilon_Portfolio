@@ -16,25 +16,52 @@ export const projectInfo: Project[] = [
         "link": ""
     },
     {
-        "nombre": "Proyecto 2",
+        "nombre": "Final lab of the JakartaEE workshop",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Descripcion del proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
+        "shortDescription": "Final lab of the JakartaEE workshop",
+        "descripcion": "Final lab of the JakartaEE workshop",
         "link": ""
 
     },
     {
-        "nombre": "Proyecto 3",
+        "nombre": "Final lab of subject Principles of Programming",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Descripcion del proyecto 3",
-        "descripcion": "Descripcion del proyecto 3",
+        "shortDescription": "Final lab of subject Principles of Programming",
+        "descripcion": "Final lab of subject Principles of Programming",
         "link": ""
     },
     {
-        "nombre": "Proyecto 4",
+        "nombre": "Final lab of subject Programming of Applications",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Descripcion del proyecto 4",
-        "descripcion": "Descripcion del proyecto 4",
+        "shortDescription": "Final lab of subject Programming of Applications",
+        "descripcion": "Final lab of subject Programming of Applications",
+        "link": ""
+    },
+        {
+        "nombre": "Final lab of subject Programming of Applications",
+        "imagen": "https://via.placeholder.com/150",
+        "shortDescription": "Final lab of subject Programming of Applications",
+        "descripcion": "Final lab of subject Programming of Applications",
+        "link": ""
+    },
+        {
+        "nombre": "Final lab of subject Programming of Applications",
+        "imagen": "https://via.placeholder.com/150",
+        "shortDescription": "Final lab of subject Programming of Applications",
+        "descripcion": "Final lab of subject Programming of Applications",
+        "link": ""
+    },
+        {
+        "nombre": "Final lab of subject Programming of Applications",
+        "imagen": "https://via.placeholder.com/150",
+        "shortDescription": "Final lab of subject Programming of Applications",
+        "descripcion": "Final lab of subject Programming of Applications",
+        "link": ""
+    },    {
+        "nombre": "Final lab of subject Programming of Applications",
+        "imagen": "https://via.placeholder.com/150",
+        "shortDescription": "Final lab of subject Programming of Applications",
+        "descripcion": "Final lab of subject Programming of Applications",
         "link": ""
     }
 ]
