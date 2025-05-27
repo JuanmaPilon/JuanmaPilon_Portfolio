@@ -32,44 +32,44 @@ The project is implemented in Python using Jupyter Notebook, and serves as a str
 
     },
     {
-        "nombre": "Final lab of subject Principles of Programming",
+        "nombre": "WORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Principles of Programming",
-        "descripcion": "Final lab of subject Principles of Programming",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
     {
-        "nombre": "Final lab of subject Programming of Applications",
+        "nombre": "FWORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Programming of Applications",
-        "descripcion": "Final lab of subject Programming of Applications",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
-        "nombre": "Final lab of subject Programming of Applications",
+        "nombre": "WORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Programming of Applications",
-        "descripcion": "Final lab of subject Programming of Applications",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
-        "nombre": "Final lab of subject Programming of Applications",
+        "nombre": "WORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Programming of Applications",
-        "descripcion": "Final lab of subject Programming of Applications",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
-        "nombre": "Final lab of subject Programming of Applications",
+        "nombre": "WORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Programming of Applications",
-        "descripcion": "Final lab of subject Programming of Applications",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     },    {
-        "nombre": "Final lab of subject Programming of Applications",
+        "nombre": "WORK IN PROGRESS",
         "imagen": "https://via.placeholder.com/150",
-        "shortDescription": "Final lab of subject Programming of Applications",
-        "descripcion": "Final lab of subject Programming of Applications",
+        "shortDescription": "WORK IN PROGRESS",
+        "descripcion": "WORK IN PROGRESS",
         "link": ""
     }
 ]

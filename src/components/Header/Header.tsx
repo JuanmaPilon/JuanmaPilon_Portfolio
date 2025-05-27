@@ -1,5 +1,6 @@
 import './Header.css';
 import { motion } from 'framer-motion';
+import profilePic from '../../assets/JMP Profile Picture.png';
 
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
         <section id="header">
         <header className="header dark:text-white  py-20  px-4 flex flex-col items-center justify-center h-screen">
             <div className='header-container max-w-4xl mx-auto text-center px-4'>
-                <img src="/projects/JMP Profile Picture.png" alt="JMP Profile Picture" className='w-80 h-80 rounded-full object-cover shadow-lg border-4 border-gray-700 mx-auto mb-14 dark:border-white'/>
+                <img src={profilePic} alt="JMP Profile Picture" className='w-80 h-80 rounded-full object-cover shadow-lg border-4 border-gray-700 mx-auto mb-14 dark:border-white'/>
         <motion.h1
          whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -200 }}
