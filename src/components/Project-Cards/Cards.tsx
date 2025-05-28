@@ -1,5 +1,6 @@
 import { Project } from "../../data/projects";
 import "./Cards.css";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface CardProps extends Project {
   isExpanded: boolean;
@@ -22,21 +23,29 @@ const Cards = (props: CardProps) => {
       />
       <p className="text-white text-sm">{props.shortDescription}</p>
 
-      {props.isExpanded && (
-        <div className="mt-4 text-white text-sm space-y-2">
-          {props.descripcion && <p>{props.descripcion}</p>}
-          {props.link && (
-            <a
-              href={props.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-2 px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-gray-200 transition"
-            >
-              See Project
-            </a>
-          )}
-        </div>
-      )}
+      <AnimatePresence>
+        {props.isExpanded && (
+          <motion.div
+            className="mt-4 text-white text-sm space-y-2"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            {props.descripcion && <p>{props.descripcion}</p>}
+            {props.link && (
+              <a
+                href={props.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-gray-200 transition"
+              >
+                See Project
+              </a>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
