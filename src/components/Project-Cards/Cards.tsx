@@ -9,14 +9,14 @@ interface CardProps extends Project {
 const Cards = (props: CardProps) => {
   return (
     <div
-      className={`card cursor-pointer bg-black/40 rounded-xl shadow-md p-8 flex flex-col items-center text-center hover:scale-105 hover:shadow-lg transition-transform duration-300 ease-in-out border-black/60 border-2 ${
+      className={`card cursor-pointer bg-black/40 rounded-xl shadow-md p-8 flex flex-col items-center text-center font-[source_code_pro] hover:scale-105 hover:shadow-lg transition-transform duration-300 ease-in-out border-black/60 border-2 ${
         props.isExpanded ? "scale-105" : ""
       }`}
       onClick={props.onClick}
     >
       <h2 className="text-xl text-white font-bold mb-2">{props.nombre}</h2>
       <img
-        className="w-full h-48 object-cover rounded-md mb-3"
+        className="w-full h-48 object-cover object-center rounded-md mb-3"
         src={props.imagen}
         alt={props.nombre}
       />
@@ -32,7 +32,7 @@ const Cards = (props: CardProps) => {
               rel="noopener noreferrer"
               className="inline-block mt-2 px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-gray-200 transition"
             >
-              Ver proyecto
+              See Project
             </a>
           )}
         </div>

@@ -1,3 +1,6 @@
+import WorkInProgress from '../assets/work-in-progress.jpg';
+import WIS from "../assets/wis-logo.png";
+
 export type Project = {
     nombre: string,
     imagen: string,
@@ -10,7 +13,7 @@ export type Project = {
 export const projectInfo: Project[] = [
     {
         "nombre": "AI-Powered Assistant for WIS (Warehouse Information System)",
-        "imagen": "/projects/Chatbot.png",
+        "imagen": WIS,
         "shortDescription": "Final project developed for my degree in Information Technology at UTEC. The objective was to design and implement an intelligent assistant capable of answering questions related to the internal operations and documentation of a Warehouse Information System (WIS).",
         "descripcion": `This assistant is built using Retrieval-Augmented Generation (RAG) techniques, which combine traditional information retrieval with generative AI to provide accurate, context-aware responses. The system integrates:
 
@@ -25,7 +28,7 @@ The project is implemented in Python using Jupyter Notebook, and serves as a str
     },
     {
         "nombre": "Final lab of the JakartaEE workshop",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "Final lab of the JakartaEE workshop",
         "descripcion": "Final lab of the JakartaEE workshop",
         "link": ""
@@ -33,41 +36,41 @@ The project is implemented in Python using Jupyter Notebook, and serves as a str
     },
     {
         "nombre": "WORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
     {
-        "nombre": "FWORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "nombre": "WORK IN PROGRESS",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
     },    {
         "nombre": "WORK IN PROGRESS",
-        "imagen": "https://via.placeholder.com/150",
+        "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
         "descripcion": "WORK IN PROGRESS",
         "link": ""
