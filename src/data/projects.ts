@@ -1,6 +1,7 @@
 import WorkInProgress from '../assets/work-in-progress.jpg';
 import WIS from "../assets/wis-logo.png";
 import netLab from "../assets/queue-calling-system.jpeg";
+import pokeSPA from "../assets/poke-spa.jpg";
 
 export type Project = {
     nombre: string,
@@ -28,44 +29,44 @@ export const projectInfo: Project[] = [
 
     },
     {
-        "nombre": "WORK IN PROGRESS",
-        "imagen": WorkInProgress,
-        "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
-        "link": ""
+        "nombre": "Pokemon Team Builder SPA",
+        "imagen": pokeSPA,
+        "shortDescription": "Single Page Application built with Angular, Typescript and Node.js that lets users log in, browse Pokémon, and create personalized teams.",
+        "descripcion": "Developed as the final project for the Rich Internet Applications (RIA) Lab at UTEC, this Single Page Application simulates a complete Pokémon team builder platform. Built with Angular on the frontend and Node.js on the backend, the application allows users to register and log in, browse a list of available Pokémon, and create or manage their own teams. The system uses a simulated backend powered by a JSON-based database to handle persistence and REST-like API calls. The project emphasizes client-side rendering, route navigation, responsive UI with Tailwind CSS, and modular code organization using Angular components and services. It also integrates form validation, session handling, and dynamic data interaction through asynchronous requests.",
+        "link": "https://github.com/JuanmaPilon/UTEC_RIA_LabFinal"
     },
     {
         "nombre": "WORK IN PROGRESS",
         "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
+        "descripcion": "",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
         "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
+        "descripcion": "",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
         "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
+        "descripcion": "",
         "link": ""
     },
         {
         "nombre": "WORK IN PROGRESS",
         "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
+        "descripcion": "",
         "link": ""
     },    {
         "nombre": "WORK IN PROGRESS",
         "imagen": WorkInProgress,
         "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "WORK IN PROGRESS",
+        "descripcion": "",
         "link": ""
     }
 ]
