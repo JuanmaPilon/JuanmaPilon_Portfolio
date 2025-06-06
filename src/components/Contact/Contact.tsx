@@ -7,17 +7,17 @@ const Contact = () => {
         <div className="contact max-w-2xl w-full text-center">
             <h1 className="contact-title text-4xl font-bold mb-6 font-[source_code_pro]">Contact Me!</h1>
             <a href="mailto:juanmartin.pilon@gmail.com"
-            className='inline-flex items-center gap-2 text-red-700 hover:text-red-600 font-semibold py-2 px-3 transition mx-0.5 dark:text-red-400'>
+            className='inline-flex items-center gap-2 text-red-800 hover:text-red-500 font-semibold py-2 px-3 transition mx-0.5 dark:text-red-400'>
                 <SiGmail className='text-2xl' />
             </a>
             <a 
             href="https://www.linkedin.com/in/juanmartinpilon/" target="_blank" rel="noopener noreferrer"
-            className='inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold py-2 px-3 transition mx-0.5'>
+            className='inline-flex items-center gap-2 text-blue-800 hover:text-blue-500 font-semibold py-2 px-3 transition mx-0.5'>
                 <SiLinkedin className='text-2xl' />
             </a>
             <a
             href="https://github.com/JuanmaPilon" target="_blank" rel="noopener noreferrer"
-            className='inline-flex items-center gap-2 text-gray-200 hover:text-gray-400 font-semibold py-2 px-3 transition mx-0.5'
+            className='inline-flex items-center gap-2 text-gray-300 hover:text-white font-semibold py-2 px-3 transition mx-0.5'
             >
                 <SiGithub className='text-2xl' />
             </a>

@@ -2,6 +2,7 @@ import WorkInProgress from '../assets/work-in-progress.jpg';
 import WIS from "../assets/wis-logo.png";
 import netLab from "../assets/queue-calling-system.jpeg";
 import pokeSPA from "../assets/poke-spa.jpg";
+import boChallenge from "../assets/BO-challenge.png";
 
 export type Project = {
     nombre: string,
@@ -36,11 +37,11 @@ export const projectInfo: Project[] = [
         "link": "https://github.com/JuanmaPilon/UTEC_RIA_LabFinal"
     },
     {
-        "nombre": "WORK IN PROGRESS",
-        "imagen": WorkInProgress,
-        "shortDescription": "WORK IN PROGRESS",
-        "descripcion": "",
-        "link": ""
+        "nombre": "Full-Stack Challenge",
+        "imagen": boChallenge,
+        "shortDescription": "Full-stack web application built with Vue.js, Nuxt.js, PHP, and Laravel, developed as part of a technical interview challenge",
+        "descripcion": "Developed as part of a technical interview challenge, this full-stack web application was built using Vue.js and Nuxt.js for the frontend, and PHP with Laravel for the backend. The project involved creating a simple application that demonstrates proficiency in both frontend and backend development, including setting up routes, handling user interactions, and managing data flow between the client and server. The application showcases the ability to integrate modern JavaScript frameworks with robust backend technologies to deliver a seamless user experience.",
+        "link": "https://github.com/JuanmaPilon/BUILDONLINE_Challenge"
     },
         {
         "nombre": "WORK IN PROGRESS",

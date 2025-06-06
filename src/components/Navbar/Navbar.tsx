@@ -35,7 +35,7 @@ const NavBar = () => {
             <button className='navbar-about font-semibold hover:text-cyan-600 tracking-wide transition font-[source_code_pro]' onClick={() => handleScrollToSection("about")}>About me</button>
             <button className='navbar-projects font-semibold hover:text-cyan-600 tracking-wide transition font-[source_code_pro]' onClick={() => handleScrollToSection("projects")}>Projects</button>
             <button className="navbar-contact font-semibold hover:text-cyan-600 tracking-wide transition font-[source_code_pro]" onClick={() => handleScrollToSection("contacts")}>Contact</button>
-            <button className='navbar-theme font-semibold hover:text-cyan-600 tracking-wide transition w-10 h-6 rounded-full bg-blue-900 dark:bg-yellow-500 flex duration-300 hover:scale-115' onClick={() => changeTheme()}>
+            <button className='navbar-theme font-semibold hover:text-cyan-600 tracking-wide transition w-10 h-6 rounded-full bg-gradient-to-br from-blue-900 to-red-950 dark:bg-gradient-to-br dark:from-blue-400 dark:to-red-600 flex duration-300 hover:scale-115' onClick={() => changeTheme()}>
                 <div className={`w-6 h-6 rounded-full bg-white text-yellow-500 dark:text-blue-600 flex items-center justify-center transition-transform duration-300 transform ${isDark ? 'translate-x-0' : 'translate-x-4'}`}>
             {isDark ? <FiMoon/> : <FiSun/>}
             </div>
