@@ -7,7 +7,8 @@ import {
     SiVuedotjs, SiAngular, SiMysql, SiPostgresql, SiSqlite, 
     SiTailwindcss, SiBootstrap, SiSass, SiTypescript, SiNpm, 
     SiDeno, SiDynatrace, SiGit, SiGithub, SiDocker,
-    SiSharp, SiCplusplus, SiC
+    SiSharp, SiCplusplus, SiC,
+    SiExpress, SiNuxtdotjs,
   } from "react-icons/si";
 import { FaJava } from 'react-icons/fa6';
 
@@ -18,11 +19,13 @@ import { FaJava } from 'react-icons/fa6';
     { name: "React", icon: SiReact, color: "text-cyan-400" },
     { name: "Redux", icon: SiRedux, color: "text-purple-500" },
     { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+    { name: "Express", icon: SiExpress, color: "text-green-500" },
     { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
     { name: "Python", icon: SiPython, color: "text-blue-400" },
     { name: "PHP", icon: SiPhp, color: "text-indigo-500" },
     { name: "Laravel", icon: SiLaravel, color: "text-red-700" },
     { name: "Vue.js", icon: SiVuedotjs, color: "text-green-400" },
+    { name: "Nuxt", icon: SiNuxtdotjs, color: "text-green-400" },
     { name: "Angular", icon: SiAngular, color: "text-red-500" },
     { name: "MySQL", icon: SiMysql, color: "text-blue-500" },
     { name: "PostgreSQL", icon: SiPostgresql, color: "text-blue-600" },
