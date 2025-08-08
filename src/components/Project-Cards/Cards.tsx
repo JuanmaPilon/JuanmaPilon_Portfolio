@@ -21,6 +21,9 @@ const Cards = (props: CardProps) => {
         src={props.imagen}
         alt={props.nombre}
       />
+      <p className="text-white text-sm font-bold">
+        Tech Stack: {props.techStack}
+      </p>
       <p className="text-white text-sm">{props.shortDescription}</p>
 
       <AnimatePresence>
